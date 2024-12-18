@@ -1,3 +1,4 @@
+
 # PocketWatching
 
 **PocketWatching** is a JavaFX-based budgeting application designed to simplify financial tracking, help users manage their budgets, and promote smarter spending habits. With a clean and modern UI, PocketWatching enables seamless sign-in, account creation, and intuitive financial visualization.
@@ -38,8 +39,73 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/your-repo/pocketwatching.git
 cd pocketwatching
+```
 
 ### Build the Project
 Run the following Maven command to build the project:
-mvn clean install
 
+```bash
+mvn clean install
+```
+
+### Run the Application
+Launch the app using Maven:
+
+```bash
+mvn javafx:run
+```
+
+### 📂 Project Structure
+- `src/main/java`: Contains all Java source files, including scenes for Sign-In, Create Account, and the main menu.
+- `src/main/resources`: Stores resources like CSS and FXML files.
+- `pom.xml`: Maven configuration file to manage dependencies.
+
+### 📦 Dependencies
+This project uses the following dependencies managed via Maven:
+
+#### Core
+JavaFX: For building the user interface.
+```xml
+<dependency>
+    <groupId>org.openjfx</groupId>
+    <artifactId>javafx-controls</artifactId>
+    <version>17</version>
+</dependency>
+```
+
+#### Testing (Optional)
+JUnit: For unit testing.
+```xml
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.8.2</version>
+    <scope>test</scope>
+</dependency>
+```
+
+## 🤝 Contributing
+We welcome contributions to PocketWatching! Here’s how you can get involved:
+
+1. Fork the repository.
+2. Create a feature branch.
+3. Commit your changes and push to your branch.
+4. Submit a pull request.
+
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Author
+For questions, suggestions, or feedback, feel free to reach out:
+
+- Author: Rameez Mufti
+
+
+## 🛤️ Future Roadmap
+- Add secure password hashing for user accounts.
+- Introduce interactive budgeting graphs.
+- Expand financial tools to include investment tracking.
+- Integrate with external APIs for real-time updates.
+
+Thank you for using PocketWatching!  
+Manage your money smarter, starting today.
