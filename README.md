@@ -38,3 +38,8 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/your-repo/pocketwatching.git
 cd pocketwatching
+
+### Build the Project
+Run the following Maven command to build the project:
+mvn clean install
+
