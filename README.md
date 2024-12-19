@@ -50,9 +50,10 @@ mvn clean install
 
 ### Run the Application
 Launch the app using Maven:
+    - Go to MainJavaFX.java. 
 
 ```bash
-mvn javafx:run
+mvn exec:java -Dexec.mainClass="com.pocketwatching.app.HelloJavaFX"
 ```
 
 ### 📂 Project Structure
